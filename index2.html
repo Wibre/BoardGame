@@ -1,0 +1,347 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+	<body class="bg-info">
+	<div class="col-9 mx-auto "> 
+		<h1>Money: <span class="score">50</span>$</h1>
+		<div class="col-3">
+			<h4>Брось кость!</h4>
+			<img src="cube.png" class="w-50">
+		</div>
+		<h2>Start</h2>
+		<div class="p-3 border vpr" style="position: absolute; right: 30px; top: 30px; width: 800px; text-align: center; display: none;">
+			<p class="vopros"></p>
+			<input type="text" class="inp">
+			<button class="otvet">Ответить</button>
+		</div>
+
+		<div class="buy-home text-center" style="position: absolute; top: 30px; right: 400px; display: none;">
+			<h1>Купить дом?</h1>
+			<button class="btn btn-danger yes">Да</button>
+			<button class="btn btn-success no">Нет</button>
+		</div>
+		<!--первый ряд-->
+		<div class="row">
+			<div class="col-1 bg-white px-5 py-3 border border-success text-center" style="background-image: url(game_player.png); background-size: 100% 100%">
+			</div>
+			<div class="col-1 px-5 py-5 border bg-danger">
+				1
+			</div>
+			<div class="col-1 px-5 py-5 border bg-warning">
+				2
+			</div>	
+			<div class="col-1 px-5 py-5 border bg-success">
+				3
+			</div>
+			<div class="col-1 px-5 py-5 border bg-dark" style="background-image: url(black-dira.png); background-size: 100% 100%;">
+				4
+			</div>
+			<div class="col-1 px-5 py-5 border bg-success">
+				5
+			</div>
+			<div class="col-1 px-5 py-5 border bg-danger">
+				6
+			</div>
+			<div class="col-1 px-5 py-5 border bg-success">
+						7
+			</div>
+			<div class="col-1 px-5 py-5 border bg-danger">
+				8
+			</div>
+			<div class="col-1 px-5 py-5 border bg-danger">
+				9
+			</div>
+			<div class="col-1 px-5 py-5 border bg-success">
+				10
+			</div>
+		</div>
+		<!--второй ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-5  border bg-danger">
+				11
+			</div>
+			<div class="col-1 px-5 py-5 der bg-success">
+				12
+			</div>
+			<div class="col-1 px-5 py-5 s border bg-success">
+				13
+			</div>	
+			<div class="col-1 px-5 py-5  border vrps1" style="background-image: url(vopros.png); background-size: 100% 100%;">
+				14
+			</div>
+			<div class="col-1 px-5 py-5  border bg-success">
+				15
+			</div>
+			<div class="col-1 px-5 py-5 border bg-danger">
+				16
+			</div>
+			<div class="col-1 px-5 py-5  border bg-success">
+				17
+			</div>
+			<div class="col-1 px-5 py-5 s border bg-warning">
+				18
+			</div>
+			<div class="col-1 px-5 py-5  border bg-success">
+				19
+			</div>
+			<div class="col-1 px-5 py-5 border bg-danger">
+				20
+			</div>
+			<div class="col-1 px-5 py-5  border bg-success">
+				21
+			</div>
+		</div>
+		<!--третий ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-5 border bg-success">
+				22
+			</div>
+			<div class="col-1 px-5 py-5 border bg-danger">
+				23
+			</div>
+			<div class="col-1 px-5 py-5 border bg-warning">
+				24
+			</div>	
+			<div class="col-1 px-5 py-5 border bg-warning">
+				25
+			</div>
+			<div class="col-1 px-5 py-5 border bg-success">				26
+			</div>
+			<div class="col-1 px-5 py-5 border bg-danger">
+				27
+			</div>
+			<div class="col-1 px-5 py-5 border bg-warning">				28
+			</div>
+			<div class="col-1 px-5 py-5 border 
+			home" style="background-image: url(home.png); background-size: 100% 100%;">
+				29
+			</div>
+			<div class="col-1 px-5 py-5 border bg-success">
+				30
+			</div>
+			<div class="col-1 px-5 py-5 border vrps2" style="background-image: url(vopros.png); background-size: 100% 100%;">
+				31
+			</div>
+			<div class="col-1 px-5 py-5 border bg-success">
+				32
+			</div>
+		</div>
+		<!--четвертый ряд-->
+		<div class="row">
+			<div class="col-1 px-5 py-5 border bg-danger">
+				33
+			</div>
+			<div class="col-1 px-5 py-5 border bg-warning">
+				34
+			</div>
+			<div class="col-1 px-5 py-5 border 	bg-danger">
+				35
+			</div>
+			<div class="col-1 px-5 py-5 border bg-danger">
+				36
+			</div>	
+			<div class="col-1 px-5 py-5 border bg-warning">
+				37
+			</div>
+			<div class="col-1 px-5 py-5 border bg-success">
+				38
+			</div>
+			<div class="col-1 px-5 py-5 border bg-danger">
+				39
+			</div>
+			<div class="col-1 px-5 py-5 border 	bg-warning">		40
+			</div>
+			<div class="col-1 px-5 py-5 border bg-success">
+				41
+			</div>
+			<div class="col-1 px-5 py-5 border bg-success">
+				42
+			</div>
+			<div class="col-1  px-5 py-5 border   bg-success">
+				43
+			</div>			
+		</div>	
+		<!--финиш-->
+		<div class="row">
+			<div class="col-10"></div>
+			<div class=" col-1 py-2 bg-primary">
+				<h2 class="mr-5 finish">Finish</h2>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+
+	let btn = document.querySelector(".otvet");
+	let inp = document.querySelector(".inp");
+	let vopros = document.querySelector(".vopros");
+	let vpr = document.querySelector(".vpr");
+	let vprs1 = document.querySelector(".vrps1");
+	let vprs2 = document.querySelector(".vrps2");
+
+	let finish = document.querySelector(".finish");
+
+	let scoreI = document.querySelector(".score");
+	let score = 50;
+
+	let red = document.querySelectorAll(".bg-danger");
+	let green = document.querySelectorAll(".bg-success");
+	let yellow = document.querySelectorAll(".bg-warning");
+	let black = document.querySelector(".bg-dark");
+	let home = document.querySelector(".home");
+	let btnHome = document.querySelector(".buy-home");
+
+	let white = document.querySelector(".bg-white");
+	
+	let start = document.querySelector(".w-50");
+
+	start.onclick = function() {
+		let random = Math.round(Math.random() * 6);
+		alert(random);
+		for (let i = 0; i < red.length; i++) {
+			red[i].style.backgroundImage = "none";
+		}
+		for (let i = 0; i < yellow.length; i++) {
+			yellow[i].style.backgroundImage = "none";
+		}
+		for (let i = 0; i < green.length; i++) {
+			green[i].style.backgroundImage = "none";
+		}
+	}
+
+	black.onclick = function() {
+		location.reload();
+	}
+
+	for (let i = 0; i < red.length; i++) {
+		red[i].onclick = function() {
+			red[i].style.backgroundImage = "url(game_player.png)";
+			red[i].style.backgroundSize = "100% 100%";
+			f1(-100);
+		}
+	}
+
+	for (let i = 0; i < yellow.length; i++) {
+		yellow[i].onclick = function() {
+			yellow[i].style.backgroundImage = "url(game_player.png)";
+			yellow[i].style.backgroundSize = "100% 100%";
+			f1(-10);
+		}
+	}
+
+	for (let i = 0; i < green.length; i++) {
+		green[i].onclick = function() {
+			green[i].style.backgroundImage = "url(game_player.png)";
+			green[i].style.backgroundSize = "100% 100%";
+			f1(100);
+		}
+	}
+
+	function f1(arg) {
+		white.style.backgroundImage = "none";
+		score = score + arg;
+		scoreI.innerHTML = score;
+		setTimeout(f2, 1000);
+	}
+
+	function f2() {
+		for (let i = 0; i < red.length; i++) {
+			red[i].style.backgroundImage = "none";
+		}
+		for (let i = 0; i < yellow.length; i++) {
+			yellow[i].style.backgroundImage = "none";
+		}
+		for (let i = 0; i < green.length; i++) {
+			green[i].style.backgroundImage = "none";
+		}
+	}
+
+	finish.onclick = function() {
+		if (score > 50) {
+			alert("You WIN!");
+		}
+		else {
+			alert("You LOSE!");
+		}
+	}
+
+	home.onclick = function() { 
+		btnHome.style.display = "block";
+	}
+
+	let yes = document.querySelector(".yes");
+	let no = document.querySelector(".no");
+
+	yes.onclick = function() {
+		score = score + -200;
+		scoreI.innerHTML = score;
+		btnHome.style.display = "none";
+	}
+
+	no.onclick = function() {
+		btnHome.style.display = "none";
+	}
+
+	btn.onclick = function() {
+		if (vopros.innerHTML == "В какую часть суток бегемоты отправляются на кормежку?" & inp.value == "ночь" || vopros.innerHTML == "В какую часть суток бегемоты отправляются на кормежку?" & inp.value == "Ночь") {
+			alert("Правильно!");
+			score = score + 200;
+			scoreI.innerHTML = score;
+		}
+
+		else if (vopros.innerHTML == "В какую часть суток бегемоты отправляются на кормежку?" & inp.value != "ночь" || vopros.innerHTML == "В какую часть суток бегемоты отправляются на кормежку?" & inp.value != "Ночь"){
+			alert("Неправильно!");
+			score = score + -50;
+			scoreI.innerHTML = score;
+		}
+
+		if (vopros.innerHTML == "Кто из героев игры мортал комбат мог замораживать своего соперника?" & inp.value == "Сабзиро" || vopros.innerHTML == "Кто из героев игры мортал комбат мог замораживать своего соперника?" & inp.value == "сабзиро") {
+			alert("Правильно!");
+			score = score + 200;
+			scoreI.innerHTML = score;
+		}
+
+		else if (vopros.innerHTML == "Кто из героев игры мортал комбат мог замораживать своего соперника?" & inp.value != "Сабзиро" || vopros.innerHTML == "Кто из героев игры мортал комбат мог замораживать своего соперника?" & inp.value != "сабзиро"){
+			alert("Неправильно!");
+			score = score + -50;
+			scoreI.innerHTML = score;
+		}
+
+		vpr.style.display = "none";
+	}
+
+	vprs1.onclick = function() {
+		this.style.backgroundImage = "url(game_player.png)";
+		this.style.backgroundSize = "100% 100%";
+		vpr.style.display = "block";
+		white.style.backgroundImage = "none";
+		setTimeout(func1, 1000);
+		inp.value = "";
+
+		vopros.innerHTML = "В какую часть суток бегемоты отправляются на кормежку?";
+	}
+
+	vprs2.onclick = function() {
+		this.style.backgroundImage = "url(game_player.png)";
+		this.style.backgroundSize = "100% 100%";
+		vpr.style.display = "block";
+		white.style.backgroundImage = "none";
+		setTimeout(func2, 1000);
+		inp.value = "";
+
+		vopros.innerHTML = "Кто из героев игры мортал комбат мог замораживать своего соперника?";
+	}
+
+	function func1() {
+		vprs1.style.backgroundImage = "url(vopros.png)";
+	}
+	function func2() {
+		vprs2.style.backgroundImage = "url(vopros.png)";
+	}
+
+	</script>
+	</body>
+	</html>
+	
